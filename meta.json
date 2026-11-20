@@ -1,0 +1,19 @@
+{
+  "flows": [
+    {"channel": "Meta", "headline": "Élisabeth Badinter : « Sans bornes, l’enfant devient un maître tyran qui asservit ses parents »", "paywall_opens_on": "Annuel, 119,99 € shown as 10,00 € a month, after the interview read in full", "note": "opens the interview from the ad in full as a gift, then asks which topics come next"},
+    {"channel": "Apple Ads", "term": "l’info", "headline": "Toute l’actu en continu, où que vous soyez.", "paywall_opens_on": "Annuel, $99.99, after the live feed and the alert preview", "note": "the 14 free days as today, day 12, day 14"},
+    {"channel": "Apple Ads", "term": "lobs", "headline": "Chaque mercredi, Le Point, la veille du kiosque.", "paywall_opens_on": "Annuel, $99.99 shown as $1.92 a week, after this week’s issue and its free extract", "note": "two App Store reviews above the plans"}
+  ],
+  "prices": {"yearly": "119,99 €", "monthly": "11,99 €", "six_months": "59,99 €", "trial": "14 days", "source": "French App Store In-App Purchases and listing text; US App Store ($99.99, $9.99, $52.99) for the Apple Ads phones"},
+  "today": {"text": "every install meets the same app and the same offer: 14 days free, then 11,99 € a month or 119,99 € a year", "source": "audit_frames"},
+  "asks": ["Quels sujets voulez-vous ensuite ?", "Quand voulez-vous être alerté ?", "Comment lisez-vous votre hebdo ?"],
+  "paywall": {"headline": "Des entretiens comme celui-ci, chaque semaine.", "uses_answers": true},
+  "rebuild": "each ad and search opens its own first launch: the story it promised first, one question, a paywall with the 14 days on the button, and the six-month plan on ✕",
+  "ideas": [
+    {"n": 1, "title": "Open on what the ad promised", "screen": "First read", "outcome": "CR +10–20%"},
+    {"n": 2, "title": "Ask one question and use the answer", "screen": "One question", "outcome": "CR +5–10%"},
+    {"n": 3, "title": "Put the 14 free days on the paywall", "screen": "Paywall", "outcome": "CR +5–15%"},
+    {"n": 4, "title": "Show what the year saves", "screen": "Paywall", "outcome": "ARPU +10–15%"},
+    {"n": 5, "title": "Answer ✕ with six months", "screen": "On ✕", "outcome": "CR +5–10%"}
+  ]
+}
